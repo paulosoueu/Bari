@@ -25,16 +25,16 @@ namespace BancoBari.Services.Services
             var json = JsonConvert.SerializeObject(message);
 
             _logger.Information("Gravando a mensagem no SQS.");
-            //await _repository.SaveMessage(json);
+            await _repository.SaveMessage(json);
             
             await Task.Run(() => Console.WriteLine(json));
 
             _logger.Information("Verificando mensagem na fila do SQS.");
-            //var messageAws = await GetMessageSQS();
-            //if (!string.IsNullOrEmpty(messageAws))
-            //{
-            //    await Task.Run(() => Console.WriteLine(messageAws));
-            //}
+            var messageAws = await GetMessageSQS();
+            if (!string.IsNullOrEmpty(messageAws))
+            {
+                await Task.Run(() => Console.WriteLine(messageAws));
+            }
         }
 
         private async Task<string> GetMessageSQS()
