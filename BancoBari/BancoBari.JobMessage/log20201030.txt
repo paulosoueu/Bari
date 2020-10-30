@@ -1,0 +1,28 @@
+2020-10-30 11:03:25.539 -03:00 [DBG] Hosting starting
+2020-10-30 11:03:37.416 -03:00 [INF] Iniciando a aplicação
+2020-10-30 11:04:25.866 -03:00 [INF] Gravando a mensagem no SQS.
+2020-10-30 11:04:41.561 -03:00 [INF] Verificando mensagem na fila do SQS.
+2020-10-30 11:04:47.469 -03:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-10-30 11:04:48.765 -03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: CC5E7515E5ECDB3CD522585FB610A062FD8C0707)
+2020-10-30 11:04:48.973 -03:00 [DBG] Hosting started
+2020-10-30 11:04:48.974 -03:00 [DBG] Loaded hosting startup assembly BancoBari.JobMessage
+2020-10-30 11:04:55.558 -03:00 [INF] Iniciando a aplicação
+2020-10-30 11:04:55.561 -03:00 [INF] Gravando a mensagem no SQS.
+2020-10-30 11:04:55.566 -03:00 [INF] Verificando mensagem na fila do SQS.
+2020-10-30 11:05:00.568 -03:00 [INF] Iniciando a aplicação
+2020-10-30 11:05:00.568 -03:00 [INF] Gravando a mensagem no SQS.
+2020-10-30 11:05:00.569 -03:00 [INF] Verificando mensagem na fila do SQS.
+2020-10-30 11:05:05.580 -03:00 [INF] Iniciando a aplicação
+2020-10-30 11:05:05.581 -03:00 [INF] Gravando a mensagem no SQS.
+2020-10-30 11:05:05.586 -03:00 [INF] Verificando mensagem na fila do SQS.
+2020-10-30 11:05:10.594 -03:00 [INF] Iniciando a aplicação
+2020-10-30 11:05:10.595 -03:00 [INF] Gravando a mensagem no SQS.
+2020-10-30 11:05:10.600 -03:00 [INF] Verificando mensagem na fila do SQS.
+2020-10-30 11:05:15.602 -03:00 [INF] Iniciando a aplicação
+2020-10-30 11:05:15.602 -03:00 [INF] Gravando a mensagem no SQS.
+2020-10-30 11:05:15.603 -03:00 [INF] Verificando mensagem na fila do SQS.
+2020-10-30 11:05:20.612 -03:00 [INF] Iniciando a aplicação
+2020-10-30 11:05:20.613 -03:00 [INF] Gravando a mensagem no SQS.
+2020-10-30 11:05:20.621 -03:00 [INF] Verificando mensagem na fila do SQS.
+2020-10-30 11:05:21.827 -03:00 [DBG] Hosting shutdown
+2020-10-30 11:05:22.097 -03:00 [ERR] Erro: A task was canceled.

@@ -1,7 +1,10 @@
-﻿namespace BancoBari.Repository.Repository.Interfaces
+﻿using System.Threading.Tasks;
+
+namespace BancoBari.Repository.Repository.Interfaces
 {
     public interface IMessageRepository
     {
-        void SaveMessage(string message);
+        Task SaveMessage(string message);
+        Task<string> GetMessage();
     }
 }

@@ -26,8 +26,8 @@ namespace BancoBari.Repository.AWSRepository
                 config.RegionEndpoint = Amazon.RegionEndpoint.USEast1;
                 config.Timeout = TimeSpan.FromSeconds(30);
                 config.MaxErrorRetry = 3;
-                awsCred = new BasicAWSCredentials(_configuration["Amazon:SQS:AccessKey"]
-                    , _configuration["Amazon:SQS:SecretKey"]);
+                awsCred = new BasicAWSCredentials(_configuration["Amazon:AccessKey"]
+                    , _configuration["Amazon:SecretKey"]);
                 sqsClient = new AmazonSQSClient(awsCred, config);
             }
             return sqsClient;
