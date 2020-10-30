@@ -26,3 +26,52 @@
 2020-10-30 11:05:20.621 -03:00 [INF] Verificando mensagem na fila do SQS.
 2020-10-30 11:05:21.827 -03:00 [DBG] Hosting shutdown
 2020-10-30 11:05:22.097 -03:00 [ERR] Erro: A task was canceled.
+2020-10-30 11:09:59.223 -03:00 [DBG] Hosting starting
+2020-10-30 11:10:04.185 -03:00 [INF] Iniciando a aplicação
+2020-10-30 11:10:04.422 -03:00 [INF] Gravando a mensagem no SQS.
+2020-10-30 11:10:04.635 -03:00 [ERR] Erro: Invalid URI: The URI is empty.
+2020-10-30 11:10:04.669 -03:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-10-30 11:10:04.787 -03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: CC5E7515E5ECDB3CD522585FB610A062FD8C0707)
+2020-10-30 11:10:04.875 -03:00 [DBG] Hosting started
+2020-10-30 11:10:04.876 -03:00 [DBG] Loaded hosting startup assembly BancoBari.JobMessage
+2020-10-30 11:10:09.647 -03:00 [INF] Iniciando a aplicação
+2020-10-30 11:10:09.647 -03:00 [INF] Gravando a mensagem no SQS.
+2020-10-30 11:10:09.751 -03:00 [ERR] Erro: Invalid URI: The URI is empty.
+2020-10-30 11:10:14.760 -03:00 [INF] Iniciando a aplicação
+2020-10-30 11:10:14.760 -03:00 [INF] Gravando a mensagem no SQS.
+2020-10-30 11:10:14.854 -03:00 [ERR] Erro: Invalid URI: The URI is empty.
+2020-10-30 11:10:19.856 -03:00 [INF] Iniciando a aplicação
+2020-10-30 11:10:19.857 -03:00 [INF] Gravando a mensagem no SQS.
+2020-10-30 11:10:19.955 -03:00 [ERR] Erro: Invalid URI: The URI is empty.
+2020-10-30 11:10:22.648 -03:00 [DBG] Hosting shutdown
+2020-10-30 11:10:28.357 -03:00 [DBG] Hosting starting
+2020-10-30 11:10:29.186 -03:00 [INF] Iniciando a aplicação
+2020-10-30 11:10:29.533 -03:00 [INF] Gravando a mensagem no SQS.
+2020-10-30 11:10:29.712 -03:00 [ERR] Erro: Invalid URI: The URI is empty.
+2020-10-30 11:10:29.745 -03:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-10-30 11:10:29.891 -03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: CC5E7515E5ECDB3CD522585FB610A062FD8C0707)
+2020-10-30 11:10:29.938 -03:00 [DBG] Hosting started
+2020-10-30 11:10:29.963 -03:00 [DBG] Loaded hosting startup assembly BancoBari.JobMessage
+2020-10-30 11:10:34.453 -03:00 [DBG] Hosting shutdown
+2020-10-30 11:10:58.862 -03:00 [DBG] Hosting starting
+2020-10-30 11:10:59.361 -03:00 [INF] Iniciando a aplicação
+2020-10-30 11:10:59.608 -03:00 [INF] Gravando a mensagem no SQS.
+2020-10-30 11:10:59.615 -03:00 [INF] Verificando mensagem na fila do SQS.
+2020-10-30 11:10:59.648 -03:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-10-30 11:10:59.751 -03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: CC5E7515E5ECDB3CD522585FB610A062FD8C0707)
+2020-10-30 11:10:59.819 -03:00 [DBG] Hosting started
+2020-10-30 11:10:59.824 -03:00 [DBG] Loaded hosting startup assembly BancoBari.JobMessage
+2020-10-30 11:11:04.617 -03:00 [INF] Iniciando a aplicação
+2020-10-30 11:11:04.617 -03:00 [INF] Gravando a mensagem no SQS.
+2020-10-30 11:11:04.618 -03:00 [INF] Verificando mensagem na fila do SQS.
+2020-10-30 11:11:09.634 -03:00 [INF] Iniciando a aplicação
+2020-10-30 11:11:09.634 -03:00 [INF] Gravando a mensagem no SQS.
+2020-10-30 11:11:09.637 -03:00 [INF] Verificando mensagem na fila do SQS.
+2020-10-30 11:11:14.644 -03:00 [INF] Iniciando a aplicação
+2020-10-30 11:11:14.645 -03:00 [INF] Gravando a mensagem no SQS.
+2020-10-30 11:11:14.646 -03:00 [INF] Verificando mensagem na fila do SQS.
+2020-10-30 11:11:19.648 -03:00 [INF] Iniciando a aplicação
+2020-10-30 11:11:19.648 -03:00 [INF] Gravando a mensagem no SQS.
+2020-10-30 11:11:19.650 -03:00 [INF] Verificando mensagem na fila do SQS.
+2020-10-30 11:11:20.361 -03:00 [DBG] Hosting shutdown
+2020-10-30 11:11:20.441 -03:00 [ERR] Erro: A task was canceled.
