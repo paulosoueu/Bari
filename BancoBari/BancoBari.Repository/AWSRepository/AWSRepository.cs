@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace BancoBari.Repository.AWSRepository
+﻿namespace BancoBari.Repository.AWSRepository
 {
-    class AWSRepository
+    public class AWSRepository
     {
     }
 }

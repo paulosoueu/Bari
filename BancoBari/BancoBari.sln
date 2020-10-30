@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoBari.API", "BancoBari\BancoBari.API.csproj", "{AEBFC43D-712B-4B85-ACAB-C9F2BB370990}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BancoBari.API", "BancoBari\BancoBari.API.csproj", "{AEBFC43D-712B-4B85-ACAB-C9F2BB370990}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoBari.Services", "BancoBari.Services\BancoBari.Services.csproj", "{37B5034E-8E9C-4DCB-8EA9-F610B1FDA3FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BancoBari.Services", "BancoBari.Services\BancoBari.Services.csproj", "{37B5034E-8E9C-4DCB-8EA9-F610B1FDA3FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoBari.Repository", "BancoBari.Repository\BancoBari.Repository.csproj", "{6C434F2C-F280-4D3A-BF87-B49655B7518E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BancoBari.Repository", "BancoBari.Repository\BancoBari.Repository.csproj", "{6C434F2C-F280-4D3A-BF87-B49655B7518E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoBari.IoC", "BancoBari.IoC\BancoBari.IoC.csproj", "{259B3CC2-D06E-4F66-89D2-5B40C4DC8CDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BancoBari.CrossCutting", "BancoBari.IoC\BancoBari.CrossCutting.csproj", "{259B3CC2-D06E-4F66-89D2-5B40C4DC8CDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoBari.JobMessage", "BancoBari.JobMessage\BancoBari.JobMessage.csproj", "{B0ADC0F8-AFDD-48F1-B904-2A6103A8E53C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{259B3CC2-D06E-4F66-89D2-5B40C4DC8CDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{259B3CC2-D06E-4F66-89D2-5B40C4DC8CDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{259B3CC2-D06E-4F66-89D2-5B40C4DC8CDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0ADC0F8-AFDD-48F1-B904-2A6103A8E53C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0ADC0F8-AFDD-48F1-B904-2A6103A8E53C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0ADC0F8-AFDD-48F1-B904-2A6103A8E53C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0ADC0F8-AFDD-48F1-B904-2A6103A8E53C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

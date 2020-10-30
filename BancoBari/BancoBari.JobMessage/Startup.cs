@@ -1,27 +1,25 @@
-using BancoBari.CrossCutting.DependencyInjection;
+using BancoBari.Repository.Repository;
+using BancoBari.Repository.Repository.Interfaces;
+using BancoBari.Services.Services;
+using BancoBari.Services.Services.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.OpenApi.Models;
-using Swashbuckle.Swagger;
-using System;
-using System.IO;
-using System.Reflection;
 
-namespace BancoBari
+namespace BancoBari.JobMessage
 {
     public class Startup
     {
-        public IConfigurationRoot Configuration { get; }
+        private readonly IConfigurationRoot Configuration;
 
         public Startup()
         {
-            var builder = new ConfigurationBuilder().
-                AddJsonFile("appsettings.json").
-                AddEnvironmentVariables();
+            var builder = new ConfigurationBuilder()
+                .AddJsonFile("appsettings.json")
+                .AddEnvironmentVariables();
             Configuration = builder.Build();
         }
 
@@ -29,23 +27,10 @@ namespace BancoBari
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            IoC.ApplyServices(Configuration, services);
+            services.AddScoped<IMessageService, MessageService>();
+            services.AddScoped<IMessageRepository, MessageRepository>();
 
-            //services.AddSwaggerGen(c =>
-            //{
-            //    c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
-            //    {
-            //        Version = "v1",
-            //        Title = "BancoBari.API",
-            //        Description = "API para teste.",
-            //        Contact = new Microsoft.OpenApi.Models.OpenApiContact { Name = "Paulo Chaves", Email = "paulosoueu@gmail.com" }
-            //    });
-
-            //    var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
-            //    var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
-            //    c.IncludeXmlComments(xmlPath);
-            //});
-
+            services.AddHostedService<Worker>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

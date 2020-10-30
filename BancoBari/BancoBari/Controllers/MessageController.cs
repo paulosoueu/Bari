@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using BancoBari.Services.Services.Interfaces;
+using Microsoft.AspNetCore.Mvc;
 
 namespace BancoBari.API.Controllers
 {
@@ -6,11 +7,17 @@ namespace BancoBari.API.Controllers
     [ApiController]
     public class MessageController : ControllerBase
     {
-        public MessageController()
-        {
+        private readonly IMessageService _service;
 
+        public MessageController(IMessageService service)
+        {
+            _service = service;
         }
 
 
+        public void getMessages()
+        {
+
+        }
     }
 }

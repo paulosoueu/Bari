@@ -1,12 +1,18 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using BancoBari.Repository.Repository;
+using BancoBari.Repository.Repository.Interfaces;
+using BancoBari.Services.Services;
+using BancoBari.Services.Services.Interfaces;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 
-namespace BancoBari.IoC.DependencyInjection
+namespace BancoBari.CrossCutting.DependencyInjection
 {
-    public class IoC
+    public static class IoC
     {
-        public static void RegisterServices(IServiceCollection services)
+        public static void ApplyServices(IConfiguration configuration, IServiceCollection services)
         {
-
+            services.AddScoped<IMessageService, MessageService>();
+            services.AddScoped<IMessageRepository, MessageRepository>();
         }
     }
 }
